@@ -289,7 +289,7 @@ int main ()
     srand(time(NULL)); //Seed for random number generation (RNG)
 
     //Monte carlo simulations!
-    //We run 100 repetitions of the process of network infection for each betaValue
+    //We run MC repetitions of the process of network infection for each betaValue
     //Then we export the results to a file for outside plotting
 
     float betaValue = 0.01; //We start off with a value of beta = 0.01
